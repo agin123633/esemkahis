@@ -29,14 +29,14 @@
                         <?php
                             include 'config.php';
                             $no = 1;
-                            $sql = mysqli_query ($koneksi, "SELECT * FROM siswa") or die (mysqli_error($koneksi));
+                            $sql = mysqli_query ($koneksi, "SELECT * FROM datadiri") or die (mysqli_error($koneksi));
                             while ($data = mysqli_fetch_array($sql)) {
                         ?>
                         <tr>
                             <td><?php echo $no++; ?></td>
-                            <td><?php echo $data["id"]; ?></td>
-                            <td><?php echo $data["nama"]; ?></td>
-                            <td><?php echo $data["jenis_kelamin"]; ?></td>
+                            <td><?php echo $data["Id"]; ?></td>
+                            <td><?php echo $data["Nama"]; ?></td>
+                            <td><?php echo $data["Jenis_Kelamin"]; ?></td>
                             <td><?php echo $data["alamat"]; ?></td>
                             <td align="center">
                                 <button type="button" class="btn btn-warning "><a href="edit.php">Edit</a></button>

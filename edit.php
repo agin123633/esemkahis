@@ -11,7 +11,7 @@
             <?php
                 include 'config.php';
                 $id = isset ($array['id']) ? $array['id']:'';
-                $sql = mysqli_query($koneksi,"SELECT * FROM siswa WHERE id='$id'") or die ;(mysqli_error($koneksi));
+                $sql = mysqli_query($koneksi,"SELECT * FROM datadiri WHERE id='$id'") or die ;(mysqli_error($koneksi));
                 $data = mysqli_fetch_array($sql)
             ?>
             <form method="post" action="proses.php">

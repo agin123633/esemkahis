@@ -4,7 +4,7 @@
 $server = "localhost";
 $user = "root";
 $password = "";
-$db = "coba";
+$db = "biodata";
 
 $koneksi= mysqli_connect($server, $user, $password, $db);
 

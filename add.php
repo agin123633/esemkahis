@@ -22,17 +22,17 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="nama">Nama </label>
+                        <label for="Nama">Nama </label>
                         <td><td>
-                        <input type="text" name="nama" required/>
+                        <input type="text" name="Nama" required/>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <label for="jenis_kelamin">Jenis Kelamin </label>
                         <td><td>
-                        <label><input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki</label>
-                        <label><input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</label>
+                        <label><input type="radio" name="Jenis_Kelamin" value="Laki-laki"> Laki-laki</label>
+                        <label><input type="radio" name="Jenis_Kelamin" value="Perempuan"> Perempuan</label>
                     </td>
                 </tr>
                 <tr>
