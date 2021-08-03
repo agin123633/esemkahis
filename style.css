@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+}thead{
+    background: rgb(67, 67, 67);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    font-family: inherit;
+}tbody{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}tr:nth-child(even){
+    background: rgb(202, 201, 201);
+    border-radius: 5px;
+}tr:nth-child(odd):hover{
+    background: rgb(214, 208, 208);
+}.button {
+    background: #4CAF50;
+}
