@@ -1,25 +1,65 @@
 body{
-    background: rgb(220, 218, 218);
-}table{
-    width: 100%;
+    margin: 0;
+    padding: 0;
+	font-family: 'roboto';
+	color: #000;
+    background-color:#d9dde9fb;
+    
+}
+
+.tombol{
+    position: absolute;
+    border:none;
+    width: 20%;
+  margin-left:auto;
+  margin-right:auto;
+    background-color: rgb(111, 84, 230) ;
+  text-align: center;
+  padding: 10px 0px;
+  left:124px;
+  
+}
+.judul{
+	background: #87D1D8;
+	padding: 10px;
+	text-align: center;
+
+}
+
+table{
     border-collapse: collapse;
-    border: 1px solid rgb(232, 232, 232);
-}thead{
-    background: rgb(67, 64, 77);
-    border: 1px solid rgb(67, 64, 77);
-    color: aliceblue;
-    padding: 10px;
+    color:#DCDCDC;
+    width: 95%;
+    
+}
+th{
+    border-style: none;
+    background-color: #0b0e35e0;
+    color: rgb(254, 254, 255);
     text-align: center;
-    font-family: inherit;
-    border-collapse: collapse;
-}tbody{
-    border-bottom: 1px solid rgb(232, 232, 232);
-    border-collapse: collapse;
-    padding: 5px;
-    text-align: left;
-}tr:nth-child(even){
-    background: rgb(232, 232, 232);
-    border-radius: 5px;
-}tr:nth-child(even):hover{
-    background: rgb(240, 240, 240);
+}
+td{
+    border-style: none;
+    color: rgb(26, 19, 59);
+    text-align: center;
+}
+.content{
+  text-align:right;
+  margin-left:uto;
+  margin-right:auto;
+}
+.container{
+  position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 25px 25px;
+}
+input{
+  
+    padding: 5px 15px;
+    padding-bottom:10px;
+    margin-bottom:5px;
+    border: none;
+    font-size: 15px;
 }
